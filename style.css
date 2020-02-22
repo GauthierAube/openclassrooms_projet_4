@@ -1042,10 +1042,7 @@ h4 {
 quote{
     font-size:20px;
     font-style: italic;
-}
-
-:hover{
-    cursor: pointer;
+    color:#OOO;
 }
 tc-pink{
     color: #EA976F;
