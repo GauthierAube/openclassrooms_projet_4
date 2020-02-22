@@ -80,7 +80,7 @@ a:hover {
 .bg-t-edge {
     background: top no-repeat;
 }
-/*
+
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
@@ -94,8 +94,8 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    background-color: rgba(33, 33, 33, 0.4);
 }
-*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -751,7 +751,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(54, 69, 119, 0.9);
+    background-color: rgba(33, 33, 33, 1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -773,7 +773,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
