@@ -689,7 +689,7 @@ a {
 
 .cta-hero {
     margin-top: 22px;
-    color: ##000!important;
+    color: #ffffff!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -750,7 +750,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(33, 33, 33, 1);
+    background-color: rgba(33, 33, 33, 0.9);
     padding: 40px 40px 40px 40px;
 }
 
@@ -764,11 +764,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #EA976F;
+    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #EA976F;
+    background-color: #364577;
 }
 
 .tc-white {
@@ -776,7 +776,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #EA976F;
+    background: #364577;
 }
 
 .btn-atomic-tangerine:hover {
