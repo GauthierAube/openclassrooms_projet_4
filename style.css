@@ -94,7 +94,6 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-    background-color: rgba(33, 33, 33, 0.4);
 }
 
 .b-parallax {
@@ -765,11 +764,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #EA976F;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #EA976F;
 }
 
 .tc-white {
@@ -777,12 +776,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #EA976F;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #EA976F!important;
     color: #FFFFFF!important;
 }
 
@@ -795,11 +794,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #EA976F!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #EA976F!important;
 }
 
 .icon-dark-slate-blue {
@@ -820,7 +819,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1044,4 +1043,8 @@ h4 {
 quote{
     font-size:20px;
     font-style: italic;
+}
+
+:hover{
+    cursor: pointer;
 }
