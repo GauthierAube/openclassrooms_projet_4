@@ -17,40 +17,6 @@
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
 	<script src="./js/gmaps.js"></script>
-	
-	# BEGIN Cache-Control Headers
-	<IfModule mod_headers.c>
-	<FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
-	Header set Cache-Control "max-age=2592000, public"
-	</FilesMatch>
-	<FilesMatch "\.(js)$">
-	Header set Cache-Control "max-age=2592000, private"
-	</FilesMatch>
-	<filesMatch "\.(html|htm)$">
-	Header set Cache-Control "max-age=7200, public"
-	</filesMatch>
-	# Enleve le cache pour les ressources dynamiques
-	<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
-	Header unset Cache-Control
-	</FilesMatch>
-	</IfModule>
-	# END Cache-Control Headers
-
-	# BEGIN Expires Headers
-	<IfModule mod_expires.c>
-	ExpiresActive On
-	ExpiresByType image/jpg "access plus 1 year"
-	ExpiresByType image/jpeg "access plus 1 year"
-	ExpiresByType image/gif "access plus 1 year"
-	ExpiresByType image/png "access plus 1 year"
-	ExpiresByType text/css "access plus 1 month"
-	ExpiresByType application/pdf "access plus 1 month"
-	ExpiresByType text/x-javascript "access plus 1 month"
-	ExpiresByType application/x-shockwave-flash "access plus 1 month"
-	ExpiresByType image/x-icon "access plus 1 year"
-	ExpiresDefault "access plus 2 days"
-	</IfModule>
-	# END Expires Headers
 
     <title>Entreprise de webdesign à Lyon</title>
 <!-- Analytics -->
@@ -61,7 +27,7 @@
 	<!-- Principal conteneur -->
 	<div class="page-container">
 
-		<!-- bloc-0 -->
+	<!-- bloc-0 -->
 		<div class="bloc bgc-white l-bloc " id="bloc-0">
 			<div class="container bloc-sm">
 				<nav class="navbar row">
@@ -92,9 +58,7 @@
 				<div class="row tight-width-whitespace">
 					<div class="col-sm-12">
 						<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La chouette agence, agence web paris, création logo paris" />
-						<h1 class="text-center hero-bloc-text tc-white ">
-							La chouette agence
-						</h1>
+						<h1 class="text-center hero-bloc-text tc-white ">La chouette agence</h1>
 						<div class="text-center">
 							<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 						</div>
@@ -150,7 +114,10 @@
 				<div class="row tight-width-whitespace black-background">
 					<div class="col-sm-12">
 						<h2 class="mg-md tc-white">Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients.</h2>
-						<p class="white">Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a></p>
+						<p class="white">Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. </p>
+						<div class="text-center">
+							<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+						</div>
 					</div>
 				</div>
 			</div>
